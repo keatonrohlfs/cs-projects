@@ -1,0 +1,106 @@
+Input: ( + 3 7 )
+Output: 10
+
+Input: ( * 4 5 )
+Output: 20
+
+Input: ( - 12 7 )
+Output: 5
+
+Input: ( / 40 8 )
+Output: 5
+
+Input: ( % 9 4 )
+Output: 1
+
+Input: ( = 10 10 )
+Output: t
+
+Input: ( = 7 8 )
+Output: ()
+
+Input: ( < 5 10 )
+Output: t
+
+Input: ( > 20 10 )
+Output: t
+
+Input: ( <= 10 10 )
+Output: t
+
+Input: ( >= 12 12 )
+Output: t
+
+Input: ( SET x 20 )
+Output: 20
+
+Input: ( + x 5 )
+Output: 25
+
+Input: ( SET y ( * x 2 ) )
+Output: 40
+
+Input: ( BEGIN ( * 5 2 )
+Output: 7
+
+Input: ( CAR ( CONS 10 20 ) )
+Output: 10
+
+Input: ( CDR ( CONS 10 20 ) )
+Output: 20
+
+Input: ( DEFINE doubleNum ( num )
+Output: doubleNum
+
+Input: ( doubleNum 7 )
+Output: 14
+
+Input: ( DEFINE addTwoNums ( a b )
+Output: addTwoNums
+
+Input: ( addTwoNums 1 2 )
+Output: 3
+
+Input: ( WHILE ( < x 30 )
+Output: ()
+
+Input: ( LIST? ( CONS 1 2 ) )
+Output: t
+
+Input: ( NUMBER? 100 )
+Output: t
+
+Input: ( SYMBOL? x )
+Output: ()
+
+Input: ( SYMBOL? 10 )
+Output: ()
+
+Input: ( DEFINE square ( num )
+Output: square
+
+Input: ( square 5 )
+Output: 25
+
+Input: ( DEFINE cube ( num )
+Output: cube
+
+Input: ( cube 3 )
+Output: 27
+
+Input: ( null? ( ) )
+Output: t
+
+Input: ( null? 7 )
+Output: ()
+
+Input: ( DEFINE factorial ( n )
+Output: factorial
+
+Input: ( factorial 5 )
+Output: 120
+
+Input: [EOF]
+Output: quittingTime
+
+
